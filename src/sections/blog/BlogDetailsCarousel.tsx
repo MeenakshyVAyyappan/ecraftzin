@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
 import blogStar from "../../assets/images/shapes/blog-one-star.png";
-import { blogCarouselData } from "../../contents/blog/blog";
+import { blogCarouselData } from "../../contents/blog/blogData";
 import type { BlogCarouselItem } from "../../contents/blog/blogType";
 
 

@@ -1,18 +1,18 @@
 import React from 'react';
-import HeaderCommon from '../../sections/common/HeaderCommon';
+import HeaderThree from '../../sections/home-three/HeaderThree';
 import BannerCommon from '../../sections/common/BannerCommon';
-import FooterCommon from '../../sections/common/FooterCommon';
-import StrickyHeaderCommon from '../../sections/common/StrickyHeaderCommon';
+import FooterThree from '../../sections/home-three/FooterThree';
+import StrickyHeaderThree from '../../sections/home-three/StrickyHeaderThree';
 import TeamMain from '../../sections/team/TeamMain';
 
-const Team:React.FC = () => {
+const Team: React.FC = () => {
     return (
         <div className="page-wrapper">
-            <HeaderCommon />
+            <HeaderThree />
             <BannerCommon title='Team' subtitle='Member' breadcrumb='Team Member' />
             <TeamMain />
-            <FooterCommon />
-            <StrickyHeaderCommon />
+            <FooterThree />
+            <StrickyHeaderThree />
         </div>
     );
 };

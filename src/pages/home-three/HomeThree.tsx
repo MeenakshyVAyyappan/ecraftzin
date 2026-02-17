@@ -7,7 +7,7 @@ import WhyChooseThree from '../../sections/home-three/WhyChooseThree';
 import SlidingTextThree from '../../sections/home-three/SlidingTextThree';
 import ProcessThree from '../../sections/home-three/ProcessThree';
 import PortfolioThree from '../../sections/home-three/PortfolioThree';
-import TestimonialsThree from '../../sections/home-three/TestimonialsThree';
+import TestimonialCarouselMain from '../../sections/testimonial/TestimonialCarouselMain';
 import BrandThree from '../../sections/home-three/BrandThree';
 import BlogThree from '../../sections/home-three/BlogThree';
 import FooterThree from '../../sections/home-three/FooterThree';
@@ -20,10 +20,10 @@ const HomeThree: React.FC = () => {
             <BannerThree />
             <WelcomeThree />
             <WhyChooseThree />
-            <SlidingTextThree />
+            {/* <SlidingTextThree /> */}
             <ProcessThree />
             <PortfolioThree />
-            <TestimonialsThree />
+            <TestimonialCarouselMain />
             <BrandThree />
             <BlogThree />
             <FooterThree />

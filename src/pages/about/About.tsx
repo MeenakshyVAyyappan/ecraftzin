@@ -6,7 +6,7 @@ import StrickyHeaderThree from '../../sections/home-three/StrickyHeaderThree';
 import AboutUsThree from '../../sections/about/AboutUsThree';
 import WhyChooseA from '../../sections/about/WhyChooseA';
 import CounterA from '../../sections/about/CounterA';
-import TestimonialsA from '../../sections/about/TestimonialsA';
+import TestimonialCarouselMain from '../../sections/testimonial/TestimonialCarouselMain';
 import AwardsA from '../../sections/about/AwardsA';
 
 
@@ -18,9 +18,8 @@ const About: React.FC = () => {
             <AboutUsThree />
             <WhyChooseA />
             <CounterA />
-            <TestimonialsA />
+            <TestimonialCarouselMain className="pb-0" />
             <AwardsA />
-
             <FooterThree />
             <StrickyHeaderThree />
         </div>

@@ -4,9 +4,13 @@ import type { TestimonialPage } from '../../contents/testimonials/type';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-const TestimonialCarouselMain: React.FC = () => {
+interface Props {
+    className?: string;
+}
+
+const TestimonialCarouselMain: React.FC<Props> = ({ className = "" }) => {
     return (
-        <section className="testimonial-carousel-page">
+        <section className={`testimonial-carousel-page ${className}`}>
             <div className="container">
                 <div className="testimonial-carousel-style owl-carousel owl-theme carousel-dot-style">
                     <Swiper

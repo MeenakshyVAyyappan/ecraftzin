@@ -6,6 +6,14 @@ export interface BlogPost {
     title: string;
     text: string;
     link: string;
+    content?: {
+        type: 'paragraph' | 'heading';
+        text: string;
+    }[];
+    whyChooseUs?: {
+        title: string;
+        points: string[];
+    };
 }
 
 export interface BlogPage {
@@ -42,4 +50,3 @@ export interface BlogCarouselItem {
     tags: string[];
     link: string;
 }
- 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import shape1 from "../../assets/images/shapes/blog-two-shape-1.png";
 import shape2 from "../../assets/images/shapes/blog-two-shape-2.png";
 import type { BlogPost } from "../../contents/blog/blogType";
-import { blogPostsThree } from "../../contents/blog/blog";
+import { blogPosts } from "../../contents/blog/blog";
 
 
 const BlogThree: React.FC = () => {
@@ -36,7 +36,7 @@ const BlogThree: React.FC = () => {
 
                 {/* Blog Posts */}
                 <div className="row">
-                    {blogPostsThree.map((post: BlogPost) => (
+                    {blogPosts.map((post: BlogPost) => (
                         <motion.div
                             initial={{ y: post?.id % 2 === 0 ? -60 : 60, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}

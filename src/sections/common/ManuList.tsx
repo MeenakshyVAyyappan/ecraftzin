@@ -1,64 +1,28 @@
 import React from 'react';
-import { BLOG_LINKS, HOME_LINKS, PAGES_LINKS, SERVICES_LINKS, SHOP_LINKS } from '../../contents/nav/nav';
-import { Link } from 'react-router';
+import { Link, useLocation } from 'react-router';
+
 const ManuList: React.FC = () => {
+    const location = useLocation();
+    const pathname = location.pathname;
+
     return (
         <ul className="main-menu__list">
-            <li className="dropdown">
-                <a href="#">Home</a>
-                <ul>
-                    {
-                        HOME_LINKS.map(Item => <li key={Item?.id}  >
-                            <Link to={Item?.link}>{Item?.value}</Link>
-                        </li>)
-                    }
-                </ul>
+            <li className={pathname === "/index3" || pathname === "/" ? "current" : ""}>
+                <Link to="/index3">Home</Link>
             </li>
-
-            <li>
-                <Link to="/about">About</Link>
+            <li className={pathname === "/about" ? "current" : ""}>
+                <Link to="/about">About Us</Link>
             </li>
-            <li className="dropdown">
-                <a href="#">Pages</a>
-                <ul>
-                    {
-                        PAGES_LINKS.map(Item => <li key={Item?.id}  >
-                            <Link to={Item?.link}>{Item?.value}</Link>
-                        </li>)
-                    }
-                </ul>
+            <li className={pathname === "/team" ? "current" : ""}>
+                <Link to="/team">Team</Link>
             </li>
-            <li className="dropdown">
-                <a href="#">Services</a>
-                <ul>
-                    {
-                        SERVICES_LINKS.map(Item => <li key={Item?.id}  >
-                            <Link to={Item?.link}>{Item?.value}</Link>
-                        </li>)
-                    }
-                </ul>
+            <li className={pathname === "/services" ? "current" : ""}>
+                <Link to="/services">Services</Link>
             </li>
-            <li className="dropdown">
-                <a href="#">Shop</a>
-                <ul>
-                    {
-                        SHOP_LINKS.map(Item => <li key={Item?.id}  >
-                            <Link to={Item?.link}>{Item?.value}</Link>
-                        </li>)
-                    }
-                </ul>
+            <li className={pathname === "/blog-carousel" ? "current" : ""}>
+                <Link to="/blog-carousel">Blog</Link>
             </li>
-            <li className="dropdown">
-                <a href="#">Blog</a>
-                <ul>
-                    {
-                        BLOG_LINKS.map(Item => <li key={Item?.id}  >
-                            <Link to={Item?.link}>{Item?.value}</Link>
-                        </li>)
-                    }
-                </ul>
-            </li>
-            <li>
+            <li className={pathname === "/contact" ? "current" : ""}>
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>

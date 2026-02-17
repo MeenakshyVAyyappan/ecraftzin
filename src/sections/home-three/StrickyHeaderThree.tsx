@@ -3,7 +3,7 @@ import FinrisContext from '../../components/context/FinrisContext';
 import { Link } from 'react-router';
 
 import logo2 from '../../assets/images/resources/logo-2.png';
-import ManuListOnePage from '../common/ManuListOnePage';
+import ManuList from '../common/ManuList';
 
 const StrickyHeaderThree: React.FC = () => {
     const context = useContext(FinrisContext);
@@ -39,7 +39,7 @@ const StrickyHeaderThree: React.FC = () => {
                         </div>
                         <div className="main-menu-two__main-menu-box">
                             <a href="#" className="mobile-nav__toggler" onClick={() => setIsMobile((pre) => !pre)}><i className="fa fa-bars"></i></a>
-                            <ManuListOnePage />
+                            <ManuList />
                         </div>
                         <div className="main-menu-two__right">
                             <div className="main-menu-two__call">
@@ -53,7 +53,7 @@ const StrickyHeaderThree: React.FC = () => {
                                     </h5>
                                 </div>
                             </div>
-                            <div className="main-menu-two__search-cart-box">
+                            {/* <div className="main-menu-two__search-cart-box">
                                 <div className="main-menu-two__search-cart-box">
                                     <div className="main-menu-two__search-box" onClick={() => setIsSearch(pre => !pre)}>
                                         <span className="main-menu-two__search searcher-toggler-box icon-search-1"></span>
@@ -62,7 +62,7 @@ const StrickyHeaderThree: React.FC = () => {
                                         <Link to="/cart" className="main-menu-two__cart icon-shopping-cart"></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="main-menu-two__btn-box">
                                 <Link to="/contact" className="thm-btn thm-btn-two main-menu-two__btn">
                                     Contact us

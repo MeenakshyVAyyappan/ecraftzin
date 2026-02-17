@@ -35,36 +35,69 @@ export const blogPosts: BlogPost[] = [
         image: blogPostImg1,
         date: 'August 20, 2025',
         tags: ['Productivity', '★', 'Tech Innovation'],
-        title: `Future of Artificial Intelligence: What's Next in 2025?`,
-        text: 'As we move towards 2025, the landscape of artificial intelligence continues to evolve',
-        link: '/blog-details',
+        title: `The Complete Digital Transformation Partner for Modern Businesses`,
+        text: 'In today’s fast-paced digital economy, businesses can no longer rely on traditional systems and outdated marketing methods.',
+        content: [
+            {
+                type: 'paragraph',
+                text: "In today’s fast-paced digital economy, businesses can no longer rely on traditional systems and outdated marketing methods. Digital transformation is the key to survival and growth."
+            },
+            {
+                type: 'heading',
+                text: "Why Digital Transformation?"
+            },
+            {
+                type: 'paragraph',
+                text: "It streamlines operations, enhances customer experiences, and opens new revenue streams. By adopting modern digital tools, businesses can stay competitive and agile."
+            }
+        ],
+        link: '/blog-details/1',
     },
     {
         id: 2,
         image: blogPostImg2,
         date: 'March 15, 2025',
         tags: ['Technology', '★', 'Wellness'],
-        title: '5 Essential Wellness Tips for a Healthier Lifestyle',
-        text: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: '/blog-details',
+        title: 'How Custom Software & Cloud Technology Are Reshaping Business Growth',
+        text: "The business landscape has changed dramatically over the last decade. Manual processes, spreadsheets, and disconnected systems are no longer sufficient.",
+        content: [
+            {
+                type: 'paragraph',
+                text: "Digital transformation is not just about having a website. It’s about integrating technology into every area of your business — from customer interaction to operations and marketing. At Ecraftz, we help businesses embrace digital transformation through Mobile Applications, Website Designing, Digital Marketing, Software Solutions, SEO, Cloud Services, and Branding strategies that drive measurable growth."
+            },
+            {
+                type: 'heading',
+                text: "What is Digital Transformation?"
+            },
+            {
+                type: 'paragraph',
+                text: "Digital transformation is the integration of digital technology into all business areas, resulting in improved customer experience, operational efficiency, and scalable growth."
+            }
+        ],
+        link: '/blog-details/2',
     },
     {
         id: 3,
         image: blogPostImg3,
         date: 'July 10, 2025',
         tags: ['Sustainability', '★', 'Eco-Friendly'],
-        title: 'Sustainable Fashion: How to Build an Eco-Friendly Wardrobe',
-        text: 'This guide covers sustainable fabrics, ethical brands, and mindful shopping',
-        link: '/blog-details',
-    },
-    {
-        id: 4,
-        image: blogPostImg1,
-        date: 'October 2, 2025',
-        tags: ['AI', '★', 'Innovation'],
-        title: 'The Power of Automation in Modern Business',
-        text: 'Automation is reshaping industries by improving efficiency and reducing costs.',
-        link: '/blog-details',
+        title: 'Why Digital Marketing & Branding Are Essential for Business Success in 2026',
+        text: 'In 2026, competition is higher than ever. Customers research online before making any decision. If your business is not visible digitally, it practically does not exist.',
+        content: [
+            {
+                type: 'paragraph',
+                text: "In 2026, competition is higher than ever. Customers research online before making any decision. If your business is not visible digitally, it practically does not exist. A strong brand and digital marketing strategy are essential."
+            },
+            {
+                type: 'heading',
+                text: "The Power of Branding"
+            },
+            {
+                type: 'paragraph',
+                text: "Branding is more than just a logo. It's the emotional connection you build with your audience. In a crowded market, a strong brand stands out and builds trust."
+            }
+        ],
+        link: '/blog-details/3',
     },
 ];
 
@@ -74,168 +107,29 @@ export const blogs: BlogPage[] = [
         image: blogImg1,
         date: "August 20, 2025",
         tags: ["Productivity", "★", "Tech Innovation"],
-        title: "Future of Artificial Intelligence: What's Next in 2025?",
-        description: "We move towards 2025, the landscape of artificial intelligence.",
-        link: "/blog-details",
+        title: "The Complete Digital Transformation Partner for Modern Businesses",
+        description: "In today’s fast-paced digital economy, businesses can no longer rely on traditional systems and outdated marketing methods.",
+        link: '/blog-details/1',
     },
     {
         id: 2,
         image: blogImg2,
         date: "March 15, 2025",
         tags: ["Technology", "★", "Tech Innovation"],
-        title: "5 Essential Wellness Tips for a Healthier Lifestyle",
-        description: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: "/blog-details",
+        title: "How Custom Software & Cloud Technology Are Reshaping Business Growth",
+        description: "The business landscape has changed dramatically over the last decade. Manual processes, spreadsheets, and disconnected systems are no longer sufficient.",
+        link: '/blog-details/2',
     },
     {
         id: 3,
         image: blogImg3,
         date: "August 20, 2025",
         tags: ["Productivity", "★", "Tech Innovation"],
-        title: "Sustainable Fashion: How to Build an Eco-Friendly Wardrobe",
-        description: "This guide covers sustainable fabrics, ethical brands.",
-        link: "/blog-details",
+        title: "Why Digital Marketing & Branding Are Essential for Business Success in 2026",
+        description: "In 2026, competition is higher than ever. Customers research online before making any decision. If your business is not visible digitally, it practically does not exist.",
+        link: '/blog-details/3',
     },
-    {
-        id: 4,
-        image: blogImg4,
-        date: "October 3, 2025",
-        tags: ["Marketing", "★", "Digital Growth"],
-        title: "Mastering the Art of Adapting to Changing Digital Marketing",
-        description: "Learn how to adjust your campaigns effectively to maintain visibility.",
-        link: "/blog-details",
-    },
-    {
-        id: 5,
-        image: blogImg5,
-        date: "March 3, 2025",
-        tags: ["Content", "★", "Creativity"],
-        title: "Engaging a Diverse Audience: Tips for Creating Inclusive Content",
-        description: "This blog provides insights into addressing diverse audience needs.",
-        link: "/blog-details",
-    },
-    {
-        id: 6,
-        image: blogImg6,
-        date: "April 3, 2025",
-        tags: ["Business", "★", "Finance"],
-        title: "Balancing Your Digital Marketing Budget Strategies",
-        description: "This post offers practical advice on balancing cost constraints.",
-        link: "/blog-details",
-    },
-    {
-        id: 7,
-        image: blogImg7,
-        date: "Sept 5, 2025",
-        tags: ["Productivity", "★", "Tech Innovation"],
-        title: "The Importance of Accurate Performance Reporting in Digital Marketing",
-        description: "Find out how to track key metrics effectively and use data for improvements.",
-        link: "/blog-details",
-    },
-    {
-        id: 8,
-        image: blogImg8,
-        date: "Sept 12, 2025",
-        tags: ["Marketing", "★", "Innovation"],
-        title: "Standing Out in a Competitive Market: Strategies for Differentiation",
-        description: "Learn strategies for creating a unique marketing presence.",
-        link: "/blog-details",
-    },
-    {
-        id: 9,
-        image: blogImg9,
-        date: "Nov 26, 2025",
-        tags: ["Tech", "★", "Digital Trends"],
-        title: "Adapting to Digital Marketing Trends: Staying Ahead of the Curve",
-        description: "Stay informed about the latest digital marketing trends and strategies.",
-        link: "/blog-details",
-    },
-];
 
-
-export const blogPostsThree: BlogPost[] = [
-    {
-        id: 1,
-        image: blogImg1,
-        date: 'August 20, 2025',
-        tags: ['Productivity', '★', 'Tech Innovation'],
-        title: `Future of Artificial Intelligence: What's Next in 2025?`,
-        text: 'As we move towards 2025, the landscape of artificial intelligence continues to evolve',
-        link: '/blog-details',
-    },
-    {
-        id: 2,
-        image: blogImg2,
-        date: 'March 15, 2025',
-        tags: ['Technology', '★', 'Wellness'],
-        title: '5 Essential Wellness Tips for a Healthier Lifestyle',
-        text: "Achieving a healthier lifestyle doesn't have to be complicated.",
-        link: '/blog-details',
-    },
-    {
-        id: 3,
-        image: blogImg3,
-        date: 'July 10, 2025',
-        tags: ['Sustainability', '★', 'Eco-Friendly'],
-        title: 'Sustainable Fashion: How to Build an Eco-Friendly Wardrobe',
-        text: 'This guide covers sustainable fabrics, ethical brands, and mindful shopping',
-        link: '/blog-details',
-    }
-];
-
-export const blogsListItems: BlogsListItem[] = [
-    {
-        id: 1,
-        title: "Mastering the Art of Adapting to Changing Digital Marketing Algorithms",
-        description:
-            "Explore strategies for staying ahead in the ever-evolving world of digital advertising algorithms. Learn how to adjust your campaigns effectively to maintain visibility and performance.",
-        date: "March 8, 2025",
-        comments: 34,
-        image: blogListImg1,
-        clientImage: client1,
-        author: "Alisa Olivia",
-        shape: shape1,
-        link: "/blog-details",
-    },
-    {
-        id: 2,
-        title: "Balancing Your Digital Marketing Budget: Strategies for Maximizing ROI",
-        description:
-            "Learn how to balance marketing investments and ROI through data-driven digital strategies. Understand cost-efficient ways to scale campaigns effectively.",
-        date: "April 12, 2025",
-        comments: 28,
-        image: blogListImg2,
-        clientImage: client2,
-        author: "Thomas Alison",
-        shape: shape2,
-        link: "/blog-details",
-    },
-    {
-        id: 3,
-        title: "Standing Out in a Competitive Market: Strategies for Differentiation",
-        description:
-            "Discover how to build a distinctive brand presence with modern marketing tools and techniques that capture audience attention.",
-        date: "May 18, 2025",
-        comments: 42,
-        image: blogListImg3,
-        clientImage: client3,
-        author: "Sarah Caine",
-        shape: shape1,
-        link: "/blog-details",
-    },
-    {
-        id: 4,
-        title: "Future of AI in Marketing: How Machine Learning is Changing Everything",
-        description:
-            "AI-driven marketing is the future. Learn how automation and predictive analytics can transform audience engagement.",
-        date: "June 10, 2025",
-        comments: 21,
-        image: blogImg1,
-        clientImage: client4,
-        author: "Smith Jhon",
-        shape: shape1,
-        link: "/blog-details",
-    },
 ];
 
 
@@ -288,5 +182,60 @@ export const blogCarouselData: BlogCarouselItem[] = [
         date: "June 22, 2025",
         tags: ["Health", "Lifestyle"],
         link: "/blog-list",
+    },
+];
+
+export const blogsListItems: BlogsListItem[] = [
+    {
+        id: 101,
+        title: "Mastering the Art of Adapting to Changing Digital Marketing Algorithms",
+        description:
+            "Explore strategies for staying ahead in the ever-evolving world of digital advertising algorithms. Learn how to adjust your campaigns effectively to maintain visibility and performance.",
+        date: "March 8, 2025",
+        comments: 34,
+        image: blogListImg1,
+        clientImage: client1,
+        author: "Alisa Olivia",
+        shape: shape1,
+        link: '/blog-details/101',
+    },
+    {
+        id: 102,
+        title: "Balancing Your Digital Marketing Budget: Strategies for Maximizing ROI",
+        description:
+            "Learn how to balance marketing investments and ROI through data-driven digital strategies. Understand cost-efficient ways to scale campaigns effectively.",
+        date: "April 12, 2025",
+        comments: 28,
+        image: blogListImg2,
+        clientImage: client2,
+        author: "Thomas Alison",
+        shape: shape2,
+        link: '/blog-details/102',
+    },
+    {
+        id: 103,
+        title: "Standing Out in a Competitive Market: Strategies for Differentiation",
+        description:
+            "Discover how to build a distinctive brand presence with modern marketing tools and techniques that capture audience attention.",
+        date: "May 18, 2025",
+        comments: 42,
+        image: blogListImg3,
+        clientImage: client3,
+        author: "Sarah Caine",
+        shape: shape1,
+        link: '/blog-details/103',
+    },
+    {
+        id: 104,
+        title: "Future of AI in Marketing: How Machine Learning is Changing Everything",
+        description:
+            "AI-driven marketing is the future. Learn how automation and predictive analytics can transform audience engagement.",
+        date: "June 10, 2025",
+        comments: 21,
+        image: blogImg1,
+        clientImage: client4,
+        author: "Smith Jhon",
+        shape: shape1,
+        link: '/blog-details/104',
     },
 ];

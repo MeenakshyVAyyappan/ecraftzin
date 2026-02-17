@@ -11,41 +11,69 @@ const contactInfo: ContactItem[] = [
     {
         icon: "icon-pin",
         title: "Our Address",
-        text: "1234 Elm Street, Suite 567, Springfield, IL 62704, USA",
+        text: "Ecraftz, 2nd Floor, Above Federal Bank,N.V Tower, Kallai Road Calicut, India",
     },
     {
         icon: "icon-user",
         title: "Contact Info",
         text: (
             <>
-                <a href="tel:120034558900">+12 (00) 345 58900</a>
+                <a href="tel:+917994111999">+91 7994111999</a>
                 <br />
-                <a href="mailto:info@domain.com">info@domain.com</a>
+                <a href="tel:+979188839916">+97 9188839916</a>
+
             </>
         ),
     },
     {
         icon: "icon-live-chat",
-        title: "Live Support",
-        text: "We are available for live chat 24 hours a day. Click here.",
+        title: "Mail To us",
+        text: (
+            <>
+                <a href="mailto:mail@ecraftz.in">mail@ecraftz.in</a>
+                <br />
+                <a href="mailto:info@ecraftz.in">info@ecraftz.in</a>
+            </>
+        ),
     },
     {
         icon: "icon-time",
         title: "Working Hour",
         text: (
             <>
-                10:00 AM - 6:00 PM <br /> Monday - Friday
+                09:00 AM - 6:00 PM <br /> Monday - Saturday
             </>
         ),
     },
 ];
 
 const ContactMain: React.FC = () => {
+    const [result, setResult] = React.useState<{ type: 'success' | 'error', message: string } | null>(null);
+
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
         e.preventDefault();
         const form = e.currentTarget;
-        form.reset();
-        alert("Message sent successfully!");
+        const name = (form.elements.namedItem('name') as HTMLInputElement).value;
+        const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+        const subject = (form.elements.namedItem('subject') as HTMLInputElement).value;
+        const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
+
+        try {
+            const mailtoLink = `mailto:mail@ecraftz.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+
+            // Use a hidden link click to avoid navigation preload warnings
+            const link = document.createElement('a');
+            link.href = mailtoLink;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            setResult({ type: 'success', message: "Email client opened! Please click 'Send' in your mail app." });
+            form.reset();
+        } catch (error) {
+            console.error("Mailto error:", error);
+            setResult({ type: 'error', message: "Failed to open email client. Please try again or copy the email address manually." });
+        }
     };
 
 
@@ -144,7 +172,13 @@ const ContactMain: React.FC = () => {
                                     </div>
                                 </form>
 
-                                <div className="result"></div>
+                                <div className="result">
+                                    {result && (
+                                        <div className={`alert ${result.type === 'success' ? 'alert-success' : 'alert-danger'}`} role="alert">
+                                            {result.message}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -157,7 +191,7 @@ const ContactMain: React.FC = () => {
                     <div className="google-map-one__inner">
                         <iframe
                             title="Google Map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                            src="https://maps.google.com/maps?q=Ecraftz+Info+Solutions+LLP&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             className="google-map__one"
                             allowFullScreen
                             loading="lazy"

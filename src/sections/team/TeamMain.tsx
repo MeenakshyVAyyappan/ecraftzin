@@ -1,12 +1,13 @@
 import React from "react";
 
-import socialShape1 from "../../assets/images/shapes/team-page-social-shape-1.png";
-import socialShape2 from "../../assets/images/shapes/team-page-social-shape-2.png";
+
 import { teamMembersTeamPage } from "../../contents/team/team";
 import type { TeamMember } from "../../contents/team/teamType";
+import ceoImg from "../../assets/images/team/aslam.jpeg";
+import ctoImg from "../../assets/images/team/habeeb.jpeg";
 const TeamMain: React.FC = () => {
     return (
-        <section className="team-page">
+        <section className="team-page" style={{ paddingBottom: '0' }}>
             <div className="container">
                 {/* Section Title */}
                 <div className="section-title-two text-center sec-title-animation animation-style2">
@@ -20,6 +21,42 @@ const TeamMain: React.FC = () => {
                     <h2 className="section-title-two__title title-animation">
                         Connect with our <span>skilled team</span> <br /> and tap into their expertise.
                     </h2>
+                </div>
+
+                {/* CEO and CTO Section */}
+                <div className="row justify-content-center mb-5">
+                    {/* CEO */}
+                    <div className="col-xl-4 col-lg-4 col-md-6">
+                        <div className="team-page__single" style={{ transform: 'scale(1.05)', border: '2px solid var(--ecraftz-primary, #007bff)' }}>
+                            <div className="team-page__img-box">
+                                <div className="team-page__img">
+                                    <img src={ceoImg} alt="Muhammed Aslam" />
+                                </div>
+                            </div>
+                            <div className="team-page__content">
+                                <h4 className="team-page__title">
+                                    <a href="#">Muhammed Aslam</a>
+                                </h4>
+                                <p className="team-page__text">Chief Executive Officer</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CTO */}
+                    <div className="col-xl-4 col-lg-4 col-md-6">
+                        <div className="team-page__single" style={{ transform: 'scale(1.05)', border: '2px solid var(--ecraftz-primary, #007bff)' }}>
+                            <div className="team-page__img-box">
+                                <div className="team-page__img">
+                                    <img src={ctoImg} alt="Habeebu Rahman" />
+                                </div>
+                            </div>
+                            <div className="team-page__content">
+                                <h4 className="team-page__title">
+                                    <a href="#">Habeebu Rahman</a>
+                                </h4>
+                                <p className="team-page__text">Chief Technical Officer</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Team Grid */}
@@ -39,19 +76,7 @@ const TeamMain: React.FC = () => {
                                     </h4>
                                     <p className="team-page__text">{member.position}</p>
 
-                                    {/* Social Icons */}
-                                    <div className="team-page__social">
-                                        <div className="team-page__social-shape-1">
-                                            <img src={socialShape1} alt="Social Shape" />
-                                        </div>
-                                        <div className="team-page__social-shape-2">
-                                            <img src={socialShape2} alt="Social Shape" />
-                                        </div>
-                                        <a href="#"><span className="icon-pinterest"></span></a>
-                                        <a href="#"><span className="icon-linkedin"></span></a>
-                                        <a href="#"><span className="icon-twitter"></span></a>
-                                        <a href="#"><span className="icon-facebook"></span></a>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

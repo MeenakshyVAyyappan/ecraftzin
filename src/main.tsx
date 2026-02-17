@@ -13,3 +13,12 @@ createRoot(document.getElementById('root')!).render(
     </ContextProvider>
   </StrictMode>
 )
+
+// Unregister any existing service workers to avoid "navigation preload" errors from previous projects
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then((registrations) => {
+    for (const registration of registrations) {
+      registration.unregister();
+    }
+  });
+}
