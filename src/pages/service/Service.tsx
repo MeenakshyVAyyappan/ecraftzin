@@ -3,11 +3,9 @@ import HeaderThree from '../../sections/home-three/HeaderThree';
 import BannerCommon from '../../sections/common/BannerCommon';
 import FooterThree from '../../sections/home-three/FooterThree';
 import StrickyHeaderThree from '../../sections/home-three/StrickyHeaderThree';
-import ServiseInner from '../../sections/service/ServiseInner';
 import WhyChooseInner from '../../sections/service/WhyChooseInner';
 import ContactInner from '../../sections/service/ContactInner';
 import FaqInner from '../../sections/service/FaqInner';
-import PricingInner from '../../sections/service/PricingInner';
 
 import ServiceThree from '../../sections/home-three/ServiceThree';
 
@@ -17,11 +15,9 @@ const Service: React.FC = () => {
             <HeaderThree />
             <BannerCommon title='Our' subtitle='Services' breadcrumb='Our Services' />
             <ServiceThree />
-            <ServiseInner />
             <WhyChooseInner />
             <ContactInner />
             <FaqInner />
-            <PricingInner />
             <FooterThree />
             <StrickyHeaderThree />
         </div>

@@ -52,66 +52,66 @@ export const servicesTow: ServicesTow[] = [
 export const servicesThree: ServicesTow[] = [
     {
         id: 1,
-        icon: 'icon-information-technology',
-        title: 'Managed IT Services',
+        icon: 'icon-promotion',
+        title: 'Digital Marketing',
         description:
-            'Managed IT Services offer a comprehensive, cost-effective solution for businesses...',
+            'Our digital marketing services enhance online presence, boost visibility, and convert leads into sales through branding, SEO, and social media.',
         link: '/services',
     },
     {
         id: 2,
         icon: 'icon-software-development',
-        title: 'Software Development',
+        title: 'Software Solutions',
         description:
-            'We deliver powerful, scalable, and user-focused applications built for performance.',
+            'Our custom software solutions streamline operations, reduce costs, and enhance efficiency, helping businesses achieve their goals with advanced technology.',
         link: '/services',
     },
     {
         id: 3,
-        icon: 'icon-cybersecurity',
-        title: 'Cybersecurity Services',
+        icon: 'icon-computer',
+        title: 'Website Design Services',
         description:
-            'Protect your business from digital threats with robust cybersecurity frameworks.',
+            'Our web development services create visually appealing, user-friendly websites that enhance your online presence and meet your business needs.',
         link: '/services',
     },
     {
         id: 4,
-        icon: 'icon-data-security',
-        title: 'Incident Responder',
+        icon: 'icon-technology-1',
+        title: 'Mobile Application Services',
         description:
-            'Swift and efficient incident response to minimize damage and recovery time.',
+            'Our mobile app development delivers custom, user-friendly apps to engage customers, enhance functionality, and ensure a seamless experience.',
         link: '/services',
     },
     {
         id: 5,
-        icon: 'icon-encrypted',
-        title: 'Data Encryption',
+        icon: 'icon-search-1',
+        title: 'Search Engine Optimization',
         description:
-            'Advanced encryption techniques to secure sensitive data and maintain compliance.',
+            'Our SEO services boost visibility with genuine, handcrafted techniques, improving rankings and traffic through in-depth market research and analysis.',
         link: '/services',
     },
     {
         id: 6,
-        icon: 'icon-planning',
-        title: 'Disaster Planning',
+        icon: 'icon-play-buttton',
+        title: 'Video Production',
         description:
-            'Ensure business continuity with disaster recovery and proactive planning.',
+            'Our video production services create captivating content from concept to completion, producing promotional videos, demos, and more to enhance your brands visual storytelling.',
         link: '/services',
     },
     {
         id: 7,
-        icon: 'icon-cyber-threat',
-        title: 'Threat Hunter',
+        icon: 'icon-star-1',
+        title: 'Branding',
         description:
-            'Identify and neutralize emerging threats before they impact operations.',
+            'We create unique brand identities that resonate with your audience, using storytelling and strategic design to ensure consistency, authenticity, and a lasting impression.',
         link: '/services',
     },
     {
         id: 8,
-        icon: 'icon-data-recovery',
-        title: 'Data Recovery',
+        icon: 'icon-connected-cloudscape',
+        title: 'Cloud Services',
         description:
-            'Recover lost or corrupted data efficiently with our expert recovery solutions.',
+            'Ecraftzs cloud services enhance efficiency and security with tailored solutions, offering seamless collaboration, data backup, and disaster recovery.',
         link: '/services',
     },
 ];

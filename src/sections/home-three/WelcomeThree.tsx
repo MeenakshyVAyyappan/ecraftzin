@@ -32,7 +32,7 @@ const items: WelcomeItem[] = [
     {
         id: 2,
         img: welcomeImg2,
-        iconClass: 'icon-cybersecurity',
+        iconClass: 'icon-growth',
         title: 'Digital Marketing',
         link: '/services',
 
@@ -40,7 +40,7 @@ const items: WelcomeItem[] = [
     {
         id: 3,
         img: welcomeImg3,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-computer',
         title: 'Website Designing',
         link: '/services',
 
@@ -48,7 +48,7 @@ const items: WelcomeItem[] = [
     {
         id: 4,
         img: welcomeImg4,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-technology-1',
         title: 'Mobile Application Services',
         link: '/services',
 
@@ -56,7 +56,7 @@ const items: WelcomeItem[] = [
     {
         id: 5,
         img: welcomeImg5,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-search-1',
         title: 'Search Engine optimization',
         link: '/services',
 
@@ -64,7 +64,7 @@ const items: WelcomeItem[] = [
     {
         id: 6,
         img: welcomeImg6,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-play-buttton',
         title: 'Video Production',
         link: '/services',
 
@@ -72,7 +72,7 @@ const items: WelcomeItem[] = [
     {
         id: 7,
         img: welcomeImg7,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-star-1',
         title: 'Branding',
         link: '/services',
 
@@ -80,7 +80,7 @@ const items: WelcomeItem[] = [
     {
         id: 8,
         img: welocmeImg8,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-share',
         title: 'Social Media Marketing',
         link: '/services',
 
@@ -88,7 +88,7 @@ const items: WelcomeItem[] = [
     {
         id: 9,
         img: welcomeImg9,
-        iconClass: 'icon-data-management',
+        iconClass: 'icon-connected-cloudscape',
         title: 'Cloud Service',
         link: '/services',
 

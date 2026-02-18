@@ -8,7 +8,7 @@ import ManuList from '../common/ManuList';
 const HeaderThree: React.FC = () => {
     const context = useContext(FinrisContext);
     if (!context) throw new Error("Context Null");
-    const { setIsMobile} = context;
+    const { setIsMobile } = context;
     return (
         <header className="main-header-two">
             <div className="main-menu-two__top">
@@ -47,7 +47,9 @@ const HeaderThree: React.FC = () => {
                             <p className="main-menu-two__top-text">Mon - Sat: 09:00 - 06:00</p>
                         </div>
                         <div className="main-menu-two__social">
-                            <a href="https://x.com/i/flow/login?redirect_after_login=%2FEcraftz1"><i className="fab fa-twitter"></i></a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2FEcraftz1">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style={{ fill: 'currentColor', width: '14px' }}><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg>
+                            </a>
                             <a href="https://www.facebook.com/ecraftzinfosolutions"><i className="fab fa-facebook"></i></a>
                             <a href="https://www.instagram.com/ecraftz_info_solutions/"><i className="fab fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/ecraftz-info-solutions-513889194/"><i className="fab fa-linkedin-in"></i></a>
