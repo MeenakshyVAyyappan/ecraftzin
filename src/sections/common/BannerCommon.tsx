@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import BGShape from "../../assets/images/shapes/page-header-bg-shape.png"
-// Define props so it’s reusable for different pages
+// Define props so it's reusable for different pages
 interface BannerCommonProps {
     title?: string;
     subtitle?: string;
@@ -10,7 +10,7 @@ interface BannerCommonProps {
     breadcrumb2?: string;
     bgShape?: string;
     shapeImage?: string;
-    videoSrc?: string;
+    imageSrc?: string;
 }
 
 const BannerCommon: React.FC<BannerCommonProps> = ({
@@ -21,28 +21,27 @@ const BannerCommon: React.FC<BannerCommonProps> = ({
     breadcrumbLink = "",
     bgShape = BGShape,
     shapeImage = "assets/images/shapes/page-header-shape-1.png",
-    videoSrc,
+    imageSrc,
 }) => {
     return (
         <section className="page-header">
-            {/* Background Shape */}
-            {!videoSrc && <div className="page-header__bg" style={{ backgroundImage: `url(${bgShape})` }} ></div>}
-
-            {videoSrc && (
-                <div className="page-header__bg" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000' }}>
-                    <video
-                        src={videoSrc}
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
-                </div>
+            {/* Background */}
+            {imageSrc ? (
+                <div
+                    className="page-header__bg"
+                    style={{
+                        backgroundImage: `url(${imageSrc})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                />
+            ) : (
+                <div className="page-header__bg" style={{ backgroundImage: `url(${bgShape})` }} />
             )}
 
-            {/* Floating Decorative Shape */}
-            {!videoSrc && <div className="page-header__shape-1">
+            {/* Floating Decorative Shape (only when no custom image) */}
+            {!imageSrc && <div className="page-header__shape-1">
                 <img src={shapeImage} alt="Decorative Shape" />
             </div>}
 

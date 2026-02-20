@@ -14,7 +14,7 @@ const About: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderThree />
-            <BannerCommon title='About' subtitle='Us' breadcrumb='About Us' videoSrc="/breadcrumbvideo.mp4" />
+            <BannerCommon title='About' subtitle='Us' breadcrumb='About Us' imageSrc="/breadcrumbimage.png" />
             <AboutUsThree />
             <WhyChooseA />
             <CounterA />

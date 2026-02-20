@@ -47,6 +47,10 @@ const ROUTER = createBrowserRouter([
       children: [
          {
             path: "/",
+            element: <HomeThree />
+         },
+         {
+            path: "index1",
             element: <HomeOne />
          },
          {
