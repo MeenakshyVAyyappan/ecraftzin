@@ -2,7 +2,7 @@
 import blogPostImg1 from '../../assets/images/blog/blog-2-1.jpg';
 import blogPostImg2 from '../../assets/images/blog/blog-2-2.jpg';
 import blogPostImg3 from '../../assets/images/blog/blog-2-3.jpg';
-import type { BlogCarouselItem, BlogPage, BlogPost, BlogsListItem } from './blogType';
+import type { BlogCarouselItem, BlogPage, BlogPost } from './blogType';
 import blogImg1 from "../../assets/images/blog/blog-2-1.jpg"
 import blogImg2 from "../../assets/images/blog/blog-2-2.jpg"
 import blogImg3 from "../../assets/images/blog/blog-2-3.jpg"

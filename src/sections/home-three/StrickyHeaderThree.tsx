@@ -8,7 +8,7 @@ import ManuList from '../common/ManuList';
 const StrickyHeaderThree: React.FC = () => {
     const context = useContext(FinrisContext);
     if (!context) throw new Error("Context Null");
-    const { setIsMobile, setIsSearch } = context;
+    const { setIsMobile } = context;
     const [isStick, setIsSticky] = useState<boolean>(false);
 
     useEffect(() => {

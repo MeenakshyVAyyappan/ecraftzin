@@ -9,9 +9,7 @@ import type { Testimonial, TestimonialPage, TestimonialTwo } from "./type";
 import img1 from "../../assets/images/testimonial/testimonial-1-1.jpg";
 import img2 from "../../assets/images/testimonial/testimonial-1-1.jpg";
 import img3 from "../../assets/images/testimonial/testimonial-1-1.jpg";
-import img4 from "../../assets/images/testimonial/testimonial-1-1.jpg";
-import img5 from "../../assets/images/testimonial/testimonial-1-1.jpg";
-import img6 from "../../assets/images/testimonial/testimonial-1-1.jpg";
+
 
 export const testimonials: Testimonial[] = [
   {

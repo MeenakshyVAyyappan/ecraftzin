@@ -6,12 +6,7 @@ import type { BlogCarouselItem, BlogPage, BlogPost, BlogsListItem } from './blog
 import blogImg1 from "../../assets/images/blog/blog-2-1.jpg"
 import blogImg2 from "../../assets/images/blog/blog-2-2.jpg"
 import blogImg3 from "../../assets/images/blog/blog-2-3.jpg"
-import blogImg4 from "../../assets/images/blog/blog-2-4.jpg"
-import blogImg5 from "../../assets/images/blog/blog-2-5.jpg"
-import blogImg6 from "../../assets/images/blog/blog-2-6.jpg"
-import blogImg7 from "../../assets/images/blog/blog-2-7.jpg"
-import blogImg8 from "../../assets/images/blog/blog-2-8.jpg"
-import blogImg9 from "../../assets/images/blog/blog-2-9.jpg"
+
 // blog List
 import blogListImg1 from "../../assets/images/blog/blog-list-1-1.jpg";
 import blogListImg2 from "../../assets/images/blog/blog-list-1-2.jpg";

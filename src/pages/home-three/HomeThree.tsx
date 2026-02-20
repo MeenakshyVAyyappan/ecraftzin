@@ -4,7 +4,7 @@ import HeaderThree from '../../sections/home-three/HeaderThree';
 import WelcomeThree from '../../sections/home-three/WelcomeThree';
 import WhyChooseThree from '../../sections/home-three/WhyChooseThree';
 
-import SlidingTextThree from '../../sections/home-three/SlidingTextThree';
+
 import ProcessThree from '../../sections/home-three/ProcessThree';
 import PortfolioThree from '../../sections/home-three/PortfolioThree';
 import TestimonialCarouselMain from '../../sections/testimonial/TestimonialCarouselMain';
