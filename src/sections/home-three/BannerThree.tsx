@@ -11,7 +11,7 @@ import AdvanceCountUp from '../../components/elements/AdvanceCountUp';
 const BannerThree: React.FC = () => {
     return (
         <section className="banner-two">
-            <video autoPlay loop muted playsInline style={{
+            <img src="/bannerimage.png" alt="Banner Background" style={{
                 position: 'absolute',
                 top: 0,
                 left: 0,
@@ -19,9 +19,7 @@ const BannerThree: React.FC = () => {
                 height: '100%',
                 objectFit: 'cover',
                 zIndex: -1
-            }}>
-                <source src="/banner-video-new.mp4" type="video/mp4" />
-            </video>
+            }} />
             <div className="container">
                 <div className="banner-two__inner">
                     <div className="row">
