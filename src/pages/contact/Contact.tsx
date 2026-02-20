@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderThree />
-            <BannerCommon title='Contact' subtitle='Us' breadcrumb='Contact Us' />
+            <BannerCommon title='Contact' subtitle='Us' breadcrumb='Contact Us' imageSrc="/breadcrumbimage.png" />
             <ContactMain />
             <FooterThree />
             <StrickyHeaderThree />

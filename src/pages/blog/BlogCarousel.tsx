@@ -9,7 +9,7 @@ const BlogCarousel: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderThree />
-            <BannerCommon title='Our' subtitle='Blogs' breadcrumb='Our Blogs' />
+            <BannerCommon title='Our' subtitle='Blogs' breadcrumb='Our Blogs' imageSrc="/breadcrumbimage.png" />
             <BlogCarouselMain />
             <FooterThree />
             <StrickyHeaderThree />

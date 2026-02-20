@@ -9,7 +9,7 @@ const Team: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderThree />
-            <BannerCommon title='Team' subtitle='Member' breadcrumb='Team Member' />
+            <BannerCommon title='Team' subtitle='Member' breadcrumb='Team Member' imageSrc="/breadcrumbimage.png" />
             <TeamMain />
             <FooterThree />
             <StrickyHeaderThree />

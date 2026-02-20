@@ -9,7 +9,7 @@ const BlogList: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderCommon />
-            <BannerCommon title='Blog' subtitle='List' breadcrumb='Blog List' />
+            <BannerCommon title='Blog' subtitle='List' breadcrumb='Blog List' imageSrc="/breadcrumbimage.png" />
             <BlogListMain />
             <FooterCommon />
             <StrickyHeaderCommon />

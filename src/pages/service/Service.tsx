@@ -13,7 +13,7 @@ const Service: React.FC = () => {
     return (
         <div className="page-wrapper">
             <HeaderThree />
-            <BannerCommon title='Our' subtitle='Services' breadcrumb='Our Services' />
+            <BannerCommon title='Our' subtitle='Services' breadcrumb='Our Services' imageSrc="/breadcrumbimage.png" />
             <ServiceThree />
             <WhyChooseInner />
             <ContactInner />
