@@ -39,7 +39,7 @@ const ServiceThree: React.FC = () => {
                                 ease: "easeOut"
                             }}
                             viewport={{ amount: 0.01, once: true }}
-                            key={service.id} className="col-xl-3 col-lg-6 col-md-6">
+                            key={service.id} className="col-xl-4 col-lg-6 col-md-6">
                             <div className="services-three__single">
                                 <div className="services-three__icon">
                                     <span className={service.icon}></span>

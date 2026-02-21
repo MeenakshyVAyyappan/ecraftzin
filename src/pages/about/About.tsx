@@ -4,6 +4,7 @@ import HeaderThree from '../../sections/home-three/HeaderThree';
 import FooterThree from '../../sections/home-three/FooterThree';
 import StrickyHeaderThree from '../../sections/home-three/StrickyHeaderThree';
 import AboutUsThree from '../../sections/about/AboutUsThree';
+import VisionMission from '../../sections/about/VisionMission';
 import WhyChooseA from '../../sections/about/WhyChooseA';
 import CounterA from '../../sections/about/CounterA';
 import TestimonialCarouselMain from '../../sections/testimonial/TestimonialCarouselMain';
@@ -16,6 +17,7 @@ const About: React.FC = () => {
             <HeaderThree />
             <BannerCommon title='About' subtitle='Us' breadcrumb='About Us' imageSrc="/breadcrumbimage.png" />
             <AboutUsThree />
+            <VisionMission />
             <WhyChooseA />
             <CounterA />
             <TestimonialCarouselMain className="pb-0" />

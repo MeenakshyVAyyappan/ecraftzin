@@ -108,8 +108,8 @@ const WelcomeThree: React.FC = () => {
                         <span className="section-title__tagline">Welcome to Ecraftz</span>
                     </div>
                     <h2 className="section-title__title title-animation">
-                        <TextAnimation text='Perfect solution for your' textColor='black' />
-                        <TextAnimation text='IT problems' />
+                        <TextAnimation text='Building Digital Excellence' textColor='black' />
+                        <TextAnimation text='Across Industries' />
                     </h2>
                 </div>
 

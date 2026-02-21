@@ -27,12 +27,12 @@ const BannerThree: React.FC = () => {
                             <div className="banner-two__left" >
                                 <div className="banner-two__left-content">
                                     <h2 className="banner-two__title">
-                                        Comprehencive IT Services to Propel Your Business
+                                       Innovative IT Services Powering 
                                         <br />
                                         <TypingEffect
                                             strings={[
-                                                'IT Solutions',
-                                                'IT Business Grow',
+                                                'Modern Businesses',
+                                                'Modern Businesses',
                                             ]}
                                             typeSpeed={100}
                                             deleteSpeed={50}

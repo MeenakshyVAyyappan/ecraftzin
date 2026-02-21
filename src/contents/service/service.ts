@@ -55,7 +55,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-promotion',
         title: 'Digital Marketing',
         description:
-            'Our digital marketing services enhance online presence, boost visibility, and convert leads into sales through branding, SEO, and social media.',
+            'Our digital marketing strategies are designed to strengthen your online presence, increase brand visibility, and convert audiences into customers through targeted campaigns, SEO, content, and social media marketing., and social media.',
         link: '/services',
     },
     {
@@ -63,7 +63,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-software-development',
         title: 'Software Solutions',
         description:
-            'Our custom software solutions streamline operations, reduce costs, and enhance efficiency, helping businesses achieve their goals with advanced technology.',
+            'We develop custom software solutions that simplify complex processes, improve operational efficiency, and reduce costs. Our scalable systems are built to adapt to your business goals using secure and modern technologies.',
         link: '/services',
     },
     {
@@ -71,7 +71,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-computer',
         title: 'Website Design Services',
         description:
-            'Our web development services create visually appealing, user-friendly websites that enhance your online presence and meet your business needs.',
+            'Ecraftz creates visually compelling, responsive, and user-focused websites that represent your brand effectively and deliver seamless user experiences across all devices.',
         link: '/services',
     },
     {
@@ -79,7 +79,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-technology-1',
         title: 'Mobile Application Services',
         description:
-            'Our mobile app development delivers custom, user-friendly apps to engage customers, enhance functionality, and ensure a seamless experience.',
+            'We design and develop intuitive mobile applications that enhance user engagement, streamline functionality, and provide smooth performance across Android and iOS platforms.',
         link: '/services',
     },
     {
@@ -87,7 +87,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-search-1',
         title: 'Search Engine Optimization',
         description:
-            'Our SEO services boost visibility with genuine, handcrafted techniques, improving rankings and traffic through in-depth market research and analysis.',
+            'Our SEO services use data-driven research and ethical optimization techniques to improve search rankings, drive organic traffic, and ensure long-term online visibility.',
         link: '/services',
     },
     {
@@ -95,7 +95,7 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-play-buttton',
         title: 'Video Production',
         description:
-            'Our video production services create captivating content from concept to completion, producing promotional videos, demos, and more to enhance your brands visual storytelling.',
+            'From concept to final cut, our video production team crafts engaging visual content including promotional videos, brand stories, demos, and digital ads that captivate and convert.',
         link: '/services',
     },
     {
@@ -103,11 +103,18 @@ export const servicesThree: ServicesTow[] = [
         icon: 'icon-star-1',
         title: 'Branding',
         description:
-            'We create unique brand identities that resonate with your audience, using storytelling and strategic design to ensure consistency, authenticity, and a lasting impression.',
+            'We build strong brand identities through strategic storytelling, thoughtful design, and consistent messaging—helping your brand stand out, connect emotionally, and leave a lasting impression.',
         link: '/services',
     },
     {
-        id: 8,
+      id:8,
+      icon:'icon-share',
+      title:'Sociel Media Marketing',
+      description:'Ecraftz delivers result-focused social media marketing through creative content, platform-specific strategies, and expert management to boost engagement and drive meaningful conversions.',
+      link:'/services',
+    },
+    {
+        id: 9,
         icon: 'icon-connected-cloudscape',
         title: 'Cloud Services',
         description:
